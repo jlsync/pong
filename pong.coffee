@@ -171,4 +171,7 @@ class PongApp
     , false
 
 pong = new PongApp
-pong.main()
+
+$= jQuery
+$ ->
+  pong.main()
